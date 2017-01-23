@@ -1,6 +1,6 @@
 # C++ Parser
 A C++ based parser designed around the different stages involved.
-* The link for this project will be changed to "C_Parser" starting April 15, 2017 (nick1au/C_Parser)
+* **The link for this project will be changed to "C_Parser" starting April 15, 2017 (nick1au/C_Parser)**
 
 ## About
 
@@ -45,7 +45,7 @@ xiii. incorrect
 ### Part 3
 * Forms a tree structure that will be used in Part 4
 * Implements function pointers (passing itself to other functions)
-* Uses the traversal methods given:
+* Uses the traversal methods given:  
 i. In-order if = 2 children  
 ii. Pre-order if > 2 children  
 iii. Post-order if < 2 children  
@@ -53,10 +53,10 @@ iii. Post-order if < 2 children
 ### Part 4
 * Creates an Abstract Syntax Tree (AST) using the tokens based on the Backus-Naur Form (BNF)
 i. If int a; a = a + 5; , then the AST is  
-ii. ; ~ int ~ a  
-      ~ = ~ a  
-          ~ + ~ a  
-              ~ 5  
+; ~ int ~ a  
+_ ~ = ~ a  
+______~ + ~ a  
+___________~ 5  
              
 ### Part 5
 * Evaluate the tree given using the AST
